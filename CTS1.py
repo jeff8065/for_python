@@ -457,7 +457,7 @@ class MyFirstGUI:
 		elif sdk == "30": #11.0
 			itemsforlistbox=['CTS-11_r4','CTS-11_r5']
 		elif sdk == "29": #10.0
-			itemsforlistbox=['CTS-10_r8',,'CTS-10_r9']
+			itemsforlistbox=['CTS-10_r8','CTS-10_r9']
 		elif sdk == "28": #9.0
 			itemsforlistbox=['CTS-9.0_r15','CTS-9.0_r16']
 		elif sdk == "26": #8.0
