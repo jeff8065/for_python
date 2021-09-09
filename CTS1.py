@@ -453,15 +453,15 @@ class MyFirstGUI:
 	def CTS(self):
 		self.versionListbox.delete(0, 15)	
 		if sdk == "27": #8.1
-			itemsforlistbox=['CTS-8.1_r21','CTS-8.1_r22','CTS-8.1_r23']
+			itemsforlistbox=['CTS-8.1_r22','CTS-8.1_r23']
 		elif sdk == "30": #11.0
-			itemsforlistbox=['CTS-11_r2','CTS-11_r3','CTS-11_r4']
+			itemsforlistbox=['CTS-11_r4','CTS-11_r5']
 		elif sdk == "29": #10.0
-			itemsforlistbox=['CTS-10_r6','CTS-10_r7','CTS-10_r8']
+			itemsforlistbox=['CTS-10_r8',,'CTS-10_r9']
 		elif sdk == "28": #9.0
-			itemsforlistbox=['CTS-9.0_r14','CTS-9.0_r15','CTS-9.0_r16']
+			itemsforlistbox=['CTS-9.0_r15','CTS-9.0_r16']
 		elif sdk == "26": #8.0
-			itemsforlistbox=['CTS-8.0_r25','CTS-8.0_r26']
+			itemsforlistbox=['CTS-8.0_r26']
 		elif sdk == "25": #7.1
 			itemsforlistbox=['CTS-7.1_r29']
 		elif sdk == "24": #7.0
@@ -497,11 +497,11 @@ class MyFirstGUI:
 		if sdk == "27": #8.1
 			itemsforlistbox=['VTS-8.1_r14','VTS-8.1_r15']
 		elif sdk == "28": #9.0
-			itemsforlistbox=['VTS-9.0_r15','VTS-9.0_r16','VTS-9.0_r17']
+			itemsforlistbox=['VTS-9.0_r16','VTS-9.0_r17']
 		elif sdk == "30": #11.0
-			itemsforlistbox=['VTS-11_r2','VTS-11_r3','VTS-11_r4']
+			itemsforlistbox=['VTS-11_r4',,'VTS-11_r5']
 		elif sdk == "29": #10.0
-			itemsforlistbox=['VTS-10_r6','VTS-10_r7','VTS-10_r8']
+			itemsforlistbox=['VTS-10_r8','VTS-10_r9']
 		elif sdk == "26": #8.0
 			itemsforlistbox=['VTS-8.0_r25','VTS-8.0_r26']
 		for i in range (len(itemsforlistbox)):
@@ -513,11 +513,11 @@ class MyFirstGUI:
 		if sdk == "27": #8.1
 			itemsforlistbox=['GSI-8.1_r14','GSI-8.1_r15']
 		elif sdk == "28": #9.0
-			itemsforlistbox=['GSI-9.0_r15','GSI-9.0_r16','GSI-9.0_r17']
+			itemsforlistbox=['GSI-9.0_r16','GSI-9.0_r17']
 		elif sdk == "29": #10.0
-			itemsforlistbox=['GSI-10_r6','GSI-10_r7','GSI-10_r8']
+			itemsforlistbox=['GSI-10_r8','GSI-10_r9']
 		elif sdk == "30": #11.0
-			itemsforlistbox=['GSI-11_r2','GSI-11_r3','GSI-11_r4']
+			itemsforlistbox=['GSI-11_r4','GSI-11_r5']
 		elif sdk == "26": #8.0
 			itemsforlistbox=['GSI-8.0_r24','GSI-8.0_r25','GSI-8.0_r26']
 		for i in range (len(itemsforlistbox)):
@@ -531,7 +531,7 @@ class MyFirstGUI:
 			self.versionListbox.insert(i, itemsforlistbox[i])
 	def INSTANT(self):
 		if sdk == "28": #9.0
-			itemsforlistbox=['INSTANT-9.0_r14','INSTANT-9.0_r15','INSTANT-9.0_r16']
+			itemsforlistbox=['INSTANT-9.0_r16','INSTANT-9.0_r17']
 		self.versionListbox.delete(0, 15)
 		for i in range (len(itemsforlistbox)):
 			self.versionListbox.insert(i, itemsforlistbox[i])
