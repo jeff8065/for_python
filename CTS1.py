@@ -513,7 +513,7 @@ class MyFirstGUI:
 		if sdk == "27": #8.1
 			itemsforlistbox=['GSI-8.1_r14','GSI-8.1_r15']
 		elif sdk == "28": #9.0
-			itemsforlistbox=['GSI-9.0_r16','GSI-9.0_r17']
+			itemsforlistbox=['GSI-9.0_r17','GSI-9.0_r18']
 		elif sdk == "29": #10.0
 			itemsforlistbox=['GSI-10_r8','GSI-10_r9']
 		elif sdk == "30": #11.0
