@@ -453,7 +453,7 @@ class MyFirstGUI:
 	def CTS(self):
 		self.versionListbox.delete(0, 15)	
 		if sdk == "27": #8.1
-			itemsforlistbox=['CTS-8.1_r22','CTS-8.1_r23']
+			itemsforlistbox=['CTS-8.1_r23','CTS-8.1_r24']
 		elif sdk == "30": #11.0
 			itemsforlistbox=['CTS-11_r4','CTS-11_r5']
 		elif sdk == "29": #10.0
